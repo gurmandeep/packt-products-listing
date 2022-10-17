@@ -143,6 +143,9 @@ return [
         // 'store'  => 'redis',
     ],
 
+    'packt_api_url' => env('PACKT_API_HOST'),
+    'packt_api_token' => env('PACKT_API_TOKEN'),
+
     /*
     |--------------------------------------------------------------------------
     | Autoloaded Service Providers
